@@ -1,0 +1,9 @@
+node_modules/
+verification-runtime/
+artifacts/
+*.tar.gz
+*.log
+*-first.png
+*-desktop.png
+*-mobile.png
+dist/assets/*.png

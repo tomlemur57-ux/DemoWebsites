@@ -1,0 +1,12 @@
+{
+  "name": "tom-vu-design-studies",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node scripts/serve.mjs",
+    "build:wordpress": "node scripts/build-wordpress.mjs",
+    "test": "node scripts/verify.mjs"
+  },
+  "devDependencies": { "playwright": "1.61.0" }
+}
