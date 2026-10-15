@@ -31,3 +31,11 @@ Install development dependencies with `npm install`, install the QA browser with
 ## Assets and scope
 
 All depicted brands, products, article scenarios, sample prices, stock states and organisations are fictional. Editorial images were generated specifically for these studies. Fonts load from Google Fonts. No private buyer designs, assets, credentials or project materials are included.
+
+## Native WooCommerce edition
+
+A separate FORM / EARTH edition adds four native WooCommerce variable products, eight finishes, a session cart and fictional test orders. The original static and WordPress editions remain available.
+
+Build with `npm run build:woocommerce`, then open `wordpress.html?site=form-earth-woocommerce` through the local preview. Its Blueprint is `dist/wordpress/form-earth-woocommerce.json`. The official WooCommerce 11.2.1 download requires WordPress 7.0 or newer; this separate Blueprint pins the verified WordPress 7.1.3 and PHP 8.3 runtime. It does not change the older editions pinned to WordPress 6.8.
+
+Checkout uses a fixed fictional identity, an offline demonstration gateway, and no shipping or fulfillment. Outgoing email is disabled. No payment provider, live customer data, merchant account or real order is connected. Data belongs to the temporary Playground session; persistence after a reload is not promised. This is a personal demonstration, not a client case study.

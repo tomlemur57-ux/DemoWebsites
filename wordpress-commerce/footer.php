@@ -1,0 +1,1 @@
+</main><footer class="footer shell"><div>FORM / EARTH <span class="muted">fictional commerce interaction demo</span></div><div class="muted">No payment · no fulfillment · local demo data only</div></footer><?php wp_footer(); ?></body></html>

@@ -1,0 +1,39 @@
+/*
+Theme Name: MuseDesk FORM / EARTH Commerce Demo
+Version: 1.0.0
+Requires at least: 7.0
+Requires PHP: 7.4
+*/
+.commerce-demo { --commerce-accent: #224bcc; }
+.commerce-demo .site-header { position:relative; }
+.commerce-demo .page-intro h1 { letter-spacing:-.06em; font-weight:500; }
+.commerce-demo .commerce-page-title { font-size:clamp(3rem,8vw,7rem); line-height:1; letter-spacing:-.075em; margin-top:3rem; margin-bottom:0; }
+.commerce-demo .demo-ribbon { padding:.55rem 1rem; background:var(--commerce-accent); color:#fff; font-size:.65rem; letter-spacing:.12em; text-transform:uppercase; text-align:center; }
+.commerce-demo .woocommerce { width:min(1440px,calc(100% - 2rem)); margin:0 auto; padding:clamp(3rem,7vw,7rem) 0; }
+.commerce-demo .woocommerce h1,.commerce-demo .woocommerce h2,.commerce-demo .woocommerce h3 { font-family:Manrope,Arial,sans-serif; letter-spacing:-.075em; }
+.commerce-demo .woocommerce .woocommerce-breadcrumb { color:var(--muted); font-size:.72rem; text-transform:uppercase; letter-spacing:.1em; }
+.commerce-demo .woocommerce ul.products { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1rem; }
+.commerce-demo .woocommerce ul.products::before,.commerce-demo .woocommerce ul.products::after { display:none; }
+.commerce-demo .woocommerce ul.products li.product { width:auto; float:none; margin:0; }
+.commerce-demo .woocommerce ul.products li.product a img { aspect-ratio:1/1.1; object-fit:cover; background:#e2e5e3; margin:0 0 1rem; }
+.commerce-demo .woocommerce ul.products li.product .price { color:var(--ink); font-weight:700; }
+.commerce-demo .woocommerce a.button,.commerce-demo .woocommerce button.button,.commerce-demo .woocommerce input.button { border:1px solid var(--ink); border-radius:3px; background:var(--ink); color:#fff; font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; font-weight:800; }
+.commerce-demo .woocommerce a.button:hover,.commerce-demo .woocommerce button.button:hover,.commerce-demo .woocommerce input.button:hover { background:var(--commerce-accent); color:#fff; }
+.commerce-demo .woocommerce div.product { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(320px,.9fr); gap:clamp(2rem,7vw,8rem); }
+.commerce-demo .woocommerce div.product div.images,.commerce-demo .woocommerce div.product div.summary { width:auto; float:none; }
+.commerce-demo .woocommerce div.product div.images img { background:#e2e5e3; }
+.commerce-demo .woocommerce div.product .woocommerce-tabs,.commerce-demo .woocommerce div.product .related { grid-column:1/-1; }
+.commerce-demo .woocommerce .related h2 { font-size:2rem; }
+.commerce-demo .woocommerce table.variations select { min-height:44px; width:100%; padding:.7rem; border:1px solid var(--line); background:var(--paper); }
+.commerce-demo .woocommerce .quantity input { min-height:44px; }
+.commerce-demo .woocommerce .single_add_to_cart_button { min-height:44px; }
+.commerce-demo .woocommerce ul.products li.product .woocommerce-loop-product__title { font-size:clamp(1.2rem,2vw,1.8rem); letter-spacing:-.04em; font-weight:500; }
+.commerce-demo .woocommerce .woocommerce-ordering select { min-height:44px; }
+.commerce-demo.woocommerce-shop .commerce-content { padding-top:1rem; }
+.commerce-demo .nav a:nth-child(2) { display:inline; }
+.commerce-demo .woocommerce div.product .product_title { font-size:clamp(3rem,7vw,7rem); line-height:.83; }
+.commerce-demo .woocommerce div.product p.price { color:var(--ink); font-size:1.55rem; }
+.commerce-demo .woocommerce form .form-row input.input-text,.commerce-demo .woocommerce form .form-row textarea,.commerce-demo .woocommerce form .form-row select { min-height:44px; border:1px solid var(--line); background:#fff; padding:.7rem; }
+.commerce-demo .woocommerce-info,.commerce-demo .woocommerce-message { border-top-color:var(--commerce-accent); background:#e9eeff; }
+.commerce-demo .woocommerce table.shop_table { border:1px solid var(--line); border-radius:3px; }
+@media(max-width:800px) { .commerce-demo .woocommerce ul.products { grid-template-columns:repeat(2,minmax(0,1fr)); } .commerce-demo .woocommerce div.product { display:block; } .commerce-demo .woocommerce div.product div.summary { margin-top:2rem; } }
