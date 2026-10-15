@@ -66,6 +66,26 @@ This is a source-backed reference for building the Money Ops demo pages. The lis
     - Practical use: combine anti-slop foundations with React, GSAP/Lenis, and immersive 3D direction; use the committed craft/foundations/motion references and headless-Chromium harness to inspect real output, not just code.
     - Limitation: targets React + R3F/Three.js + GSAP/Lenis/WebGL-heavy work; it can add needless complexity to a simple static page, and screenshot inspection still requires human judgment.
 
+## User-supplied resources checked (2026-10-15)
+
+These references were checked after the original fifteen. No skill was installed or executed, and existing demos were not re-audited or rewritten.
+
+1. **Hallmark** — [repository](https://github.com/nutlope/hallmark) and [live guidance/demo](https://www.usehallmark.com/)
+   - Practical use: choose a brief-specific macrostructure before styling, vary the page's structural fingerprint, and apply a bounded anti-slop audit. Its examples are useful reminders to avoid purple-gradient heroes, one-font display/body treatment, centered-everything, icon-tile feature cards, and generic SaaS navigation.
+   - Limitation: its theme and audit workflow is opinionated and aimed at generated landing pages; use the structural checks selectively for Money Ops rather than importing its themes wholesale.
+
+2. **Elaya AI Design Skills** — [repository](https://github.com/elayadesign/ai-design-skills)
+   - Practical use: the listed `landing-page-design` skill combines intake questions, page structure, conversion copy, and a visual system, with design values kept together for adaptation. This is a useful low-credit workflow for deciding the brief and system before implementation.
+   - Limitation: the repository currently documents one landing-page skill; it is not a general dashboard or product-app system.
+
+3. **Jakub Krehel’s interface skills** — [repository](https://github.com/jakubkrehel/skills)
+   - Practical use: borrow the separation between UI, typography, color, accessibility, layout, and writing reviews; the `interface-review` and scenario-stress-test concepts are useful for focused rendered QA.
+   - Limitation: this is a broad collection; load only the review relevant to a concrete gap instead of combining every skill.
+
+**AI interaction guidance:** [Owl-Listener/ai-design-skills](https://github.com/Owl-Listener/ai-design-skills) focuses on agentic-product interaction, alignment, evaluation, orchestration, and prompt architecture. It is relevant only if a Money Ops demo gains an agentic interaction surface, not as a visual styling reference.
+
+**Indexes, not additional skill instructions:** [awesome-design-skills](https://github.com/bergside/awesome-design-skills), [TypeUI design skills](https://www.typeui.sh/design-skills), [GitHub design-skills topic](https://github.com/topics/design-skills?l=javascript), [GitHub anti-ai-slop topic](https://github.com/topics/anti-ai-slop), and [SkillsLLM designer-skills](https://skillsllm.com/skill/designer-skills). They help discover sources but were not treated as primary implementation guidance.
+
 ## Guidance applied selectively
 
 The shared build direction is: subject-specific art direction (Anthropic, Taste, Impeccable), a small token system and semantic hierarchy (UI/UX Pro Max, Refactoring UI, Stitch), restrained purposeful motion (mthines), accessible states and responsive behavior (Vercel, magnus919, mblode), and rendered screenshot checks (Taste, Impeccable, Prism). The skills are references, not a mandate to combine their palettes, section recipes, or effects. Existing product constraints and the selected Money Ops visual direction win when guidance conflicts.
