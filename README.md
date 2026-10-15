@@ -9,6 +9,10 @@ The demos are personal portfolio work, not client case studies. No payment, orde
 
 ## Explore
 
+![Design studies preview](docs/showcase.jpg)
+
+[Hosted instant preview](https://tom-vu-design-studies.sillybell65.chatgpt.site) is owner-private. The WordPress launch links below are public.
+
 Run `node scripts/serve.mjs`, then open <http://127.0.0.1:4185/>. The static pages need no build step or runtime dependencies.
 
 Real WordPress editions are generated from the same pages and assets with `node scripts/build-wordpress.mjs`. They use a small custom theme and native Pages whose main content can be edited in Custom HTML blocks. The visual shell and interaction code live in the theme. WordPress runs inside the visitor's browser through [WordPress Playground](https://developer.wordpress.org/playground/); it needs an internet connection and an initial runtime download. Changes are local to the session.
@@ -18,7 +22,7 @@ Real WordPress editions are generated from the same pages and assets with `node 
 
 ## Verify
 
-Install development dependencies with `npm install`, install the QA browser with `npx playwright install chromium`, start the preview, then run `npm test`. Browser checks cover the nine static pages at desktop, tablet and phone sizes, navigation, language switching, filters, article variants, form validation, product routes and the bag lifecycle. WordPress runtime validation is a separate check.
+Install development dependencies with `npm install`, install the QA browser with `npx playwright install chromium`, start the preview, then run `npm test`. Browser checks cover the nine static pages at desktop, tablet and phone sizes, navigation, language switching, filters, article variants, form validation, product routes and the bag lifecycle. Run `node scripts/verify-wordpress.mjs` for the separate WordPress runtime checks. See [VALIDATION.md](VALIDATION.md) for the verified scope.
 
 ## Design sources
 
